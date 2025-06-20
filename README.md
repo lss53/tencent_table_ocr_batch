@@ -30,13 +30,13 @@ pip install tencentcloud-sdk-python openpyxl
 1. **创建项目文件夹**（示例结构）：
 ```
 TableOCR_Tool/
-├── tencent_table_ocr.py   # Python 主程序
-├── run_table_ocr.bat      # 批处理脚本
+├── tencent_table_ocr_batch.py   # Python 主程序
+├── run_table_ocr_batch.bat      # 批处理脚本
 ├── logs/                  # 日志目录（自动创建）
 └── results/               # 结果目录（自动创建）
 ```
 
-2. **编辑批处理脚本**（用记事本打开 `run_table_ocr.bat`）：  
+2. **编辑批处理脚本**（用记事本打开 `run_table_ocr_batch.bat`）：  
    修改第 11-12 行为您的密钥：
 ```bat
 set "secret_id=您的SecretId"
@@ -53,12 +53,11 @@ set "secret_key=您的SecretKey"
    
 2. **运行识别工具**：
    
-   - 双击运行 `run_table_ocr.bat`
+   - 双击运行 `run_table_ocr_batch.bat`
    - 按提示 **拖入图片文件夹** 到窗口（或直接输入路径）
    ```bat
-   1.请拖入或输入图片文件夹路径
+   1.请拖入(输入)图片文件夹(路径)
    2.^^_^^ 然后按回车键确认 ^^_^^
-   [拖入文件夹到此]
    ```
    
 3. **查看结果**：
