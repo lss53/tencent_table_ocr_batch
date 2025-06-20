@@ -37,7 +37,7 @@ TableOCR_Tool/
 ```
 
 2. **编辑批处理脚本**（用记事本打开 `run_table_ocr.bat`）：  
-   修改第 16-17 行为您的密钥：
+   修改第 11-12 行为您的密钥：
 ```bat
 set "secret_id=您的SecretId"
 set "secret_key=您的SecretKey"
