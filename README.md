@@ -16,7 +16,7 @@ pip install tencentcloud-sdk-python openpyxl
 ```
 
 3. **获取腾讯云密钥**  
-   - 访问腾讯云官网：https://cloud.tencent.com。若未注册，点击右上角「注册」，使用手机号、邮箱或微信/QQ等方式完成注册；若已有账号，直接点击「登录」。
+   - 访问腾讯云官网：https://cloud.tencent.com。  若未注册，点击右上角「注册」，使用手机号、邮箱或微信/QQ等方式完成注册；若已有账号，直接点击「登录」。
    - 进入https://console.cloud.tencent.com/developer/auth，选择「个人实名认证」，按提示上传身份证信息并完成验证。  
    - 进入腾讯云控制台：https://console.cloud.tencent.com，在顶部导航栏选择「产品」> 搜索「文字识别」，进入OCR控制台后，系统会提示“立即开通”。点击「开通」，根据提示确认服务协议，完成开通。
    - 进入https://console.cloud.tencent.com/cam/capi。创建 API 密钥（保存 `SecretId` 和 `SecretKey`）。  
